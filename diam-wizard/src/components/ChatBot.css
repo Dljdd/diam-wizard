@@ -1,0 +1,64 @@
+.chatbot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .character-container {
+    flex: 0 0 auto;
+    margin-left: 20px;
+  }
+  
+  .character-image {
+    width: 150px;
+  }
+  
+  .speech-bubble {
+    position: relative;
+    background-color: #7f00ff;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    max-width: 60rem; /* Adjust as necessary */
+    margin: 0 20px;
+  }
+  
+  .speech-bubble::after {
+    content: '';
+    position: absolute;
+    left: -20px; /* Adjust as necessary */
+    top: 50px; /* Adjust as necessary */
+    width: 0;
+    height: 0;
+    border-right: 20px solid #7f00ff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  .chatbot-iframe {
+    width: 66vw;
+    height: 90vh; /* Adjust as necessary */
+    border: none;
+    border-radius: 15px; /* Match the speech bubble border radius */
+  }
+  
+  .faq-container {
+    flex: 0 0 auto;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .faq-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
