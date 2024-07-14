@@ -17,11 +17,12 @@ const Chatbot = () => {
         <img src={characterImage} alt="Character" className="character-image" />
       </div>
       <div className="speech-bubble">
-        <iframe
-          src="https://www.chatbase.co/chatbot-iframe/vVZlDGTPtpN_tqq3rBcCZ" // Replace with your chatbot URL
-          title="Chatbot"
-          className="chatbot-iframe"
-        ></iframe>
+      <iframe
+      src="https://www.chatbase.co/chatbot-iframe/CGo_wuYF77FrY8De5b18n"
+      width="100%"
+      style="height: 100%; min-height: 700px"
+      frameborder="0"
+      ></iframe>
       </div>
       <div className="faq-container">
         <h2>FAQs</h2>
