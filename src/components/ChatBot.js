@@ -4,7 +4,9 @@ import characterImage from './images/mascot.png'; // Update the path accordingly
 
 const Chatbot = () => {
   const faqs = [
-
+    "What is DIAM?",
+    "How to trade DIAM?",
+    "DIAM vs ETH",
   ];
 
   return (
