@@ -7,6 +7,8 @@ const Chatbot = () => {
     "What is DIAM?",
     "How to trade DIAM?",
     "DIAM vs ETH",
+    "DIAM Wallet Setup",
+    "DIAM Price Prediction"
   ];
 
   return (
