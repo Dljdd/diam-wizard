@@ -24,14 +24,14 @@ const Chatbot = () => {
       frameborder="0"
       ></iframe>
       </div>
-      {/* <div className="faq-container">
+      <div className="faq-container">
         <h2>FAQs</h2>
         <ul className="faq-list">
           {faqs.map((faq, index) => (
             <li key={index} className="faq-item">{faq}</li>
           ))}
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 };
